@@ -1,0 +1,121 @@
+#Revision number 2-1-2022
+##Begin Michael Winay here (2/1/2022)
+print("Issue One:")
+value1 = int(input("Enter a number: "))
+value1 = int(((((value1 + 2) * 3) - 6) / 3))
+print("Here is the output:", value1)
+#Revision number 2-1-2022
+##End Michael Winay here
+#group guy name yeah?
+
+#Revision number 2-2-2022
+##Begin Michael Winay here (2/2/2022)
+print()
+print("Issue Two:")
+print("Group 1:")
+my_var1 = 7.0 
+my_var2 = 5 
+print(my_var1 % my_var2)
+
+print("Group 2:")
+x = 4 
+y = 5 
+print(x//y)
+
+print("Group 3:")
+value2 = 30-3**2+8//3**2*10
+print("output:", value2)
+#Revision number 2-2-2022
+##End Michael Winay here
+#group guy name yeah?
+
+#Revision number 2-2-2022
+##Begin Michael Winay here (2/2/2022)
+print()
+print("Issue Three:")
+#value3 = input("Enter a number: ")
+#willContinue = True
+#while willContinue:
+#    print("Input as string:", str(value3))
+#    print("Input as integer:", int(value3))
+#    print("Input as float:", float(value3))
+#    print("Here is the output:", value)
+#    print("Continue? y/n")
+#    logContinue = input()
+#    willContinue = True if logContinue == y or logContinue == Y else False
+print("Can uncomment source code to enable testing")
+print("Findings:")
+print("Cannot receieve any input containing alphabet or special characters.") 
+print("They cannot be cast as integers, at least not with basic casting")
+#Revision number 2-2-2022
+##End Michael Winay here
+#group guy name yeah?
+
+#Revision number 2-3-2022
+##Begin Michael Winay here (2/3/2022)
+print()
+print("Issue Four:")
+value4 = 2**2**3
+print("a)", value4)
+value4 = 2**(2**3)
+print("b)", value4)
+value4 = (2**2)**3
+print("c)", value4)
+print("Value \"c\" has a different value")
+#Revision number 2-3-2022
+##End Michael Winay here
+#group guy name yeah?
+
+#Revision number 2-3-2022
+##Begin Michael Winay here (2/3/2022)
+import random
+
+print()
+print("Issue Five: The Pirate One")
+print("The Rules:")
+print("-Buy in is one gold")
+print("-six or higher is a win")
+print("-Wagering odds are therefore 50%")
+print()
+print("How much gold do you have?")
+hoard = int(input())
+while(hoard > 0):
+    print("Your Gold:", hoard)
+    print("What's yer wager?")
+    wager = int(input())
+    spin = random.randint(1, 10)
+    if(spin > 5):
+        print("The number drawn was a", spin, ". You win this time...")
+        hoard += wager
+    else:
+        print("The number drawn was a", spin, ". You lose...")
+        hoard -= wager
+print("You don't have any gold left...")
+
+#Revision number 2-3-2022
+##Begin Michael Winay here (2/3/2022)
+print()
+print("Issue Six:")
+#Every word in English has a vowel or the letter 'Y'. If they are removed from the pool of characters,
+#there will be no words possible
+for i in range(40):
+    password = ''
+    for j in range(random.randint(10,24)):
+        vowel = True
+        while(vowel):
+            randomChar = random.randint(97, 122)
+            if (randomChar != 97 and randomChar != 101 and randomChar != 105 and randomChar != 111 and randomChar != 117 and randomChar != 121):
+                vowel = False
+            else:
+                vowel = True
+        password += chr(randomChar)
+
+    for j in range(random.randint(3,7)):
+        randomSpcl = chr(random.randint(33, 38))
+        randomPos = random.randint(1,len(password))
+        password = password[:randomPos] + randomSpcl + password[randomPos:]
+    
+    print(password)
+#Revision number 2-3-2022
+##End Michael Winay here
+#group guy name yeah?
