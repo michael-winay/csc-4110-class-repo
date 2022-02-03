@@ -7,7 +7,7 @@ value_issue_one = int(((((value_issue_one + 2) * 3) - 6) / 3))
 print("Here is the output:", value_issue_one)
 #Revision number 2-1-2022
 ##End Michael Winay here
-#Group 1/ Jason Myers / Michael Winay/  project 3
+#Omega Group/ Ram Valud / Michael Walker/  project greenwood321
 
 #Revision number 2-2-2022
 ##Begin Michael Winay here (2/2/2022)
@@ -31,7 +31,7 @@ value2 = 30-3**2+8//3**2*10
 print("output:", value2)
 #Revision number 2-2-2022
 ##End Michael Winay here
-#Group 1/ Jason Myers / Michael Winay/  project 3
+#Omega Group/ Ram Valud / Michael Walker/  project greenwood321
 
 #Revision number 2-2-2022
 ##Begin Michael Winay here (2/2/2022)
@@ -53,7 +53,7 @@ print("Cannot receieve any input containing alphabet or special characters.")
 print("They cannot be cast as integers, at least not with basic casting")
 #Revision number 2-2-2022
 ##End Michael Winay here
-#Group 1/ Jason Myers / Michael Winay/  project 3
+#Omega Group/ Ram Valud / Michael Walker/  project greenwood321
 
 #Revision number 2-3-2022
 ##Begin Michael Winay here (2/3/2022)
@@ -70,7 +70,7 @@ print("c)", value_issue_four)
 print("Value \"c\" has a different value")
 #Revision number 2-3-2022
 ##End Michael Winay here
-#Group 1/ Jason Myers / Michael Winay/  project 3
+#Omega Group/ Ram Valud / Michael Walker/  project greenwood321
 
 #Revision number 2-3-2022
 ##Begin Michael Winay here (2/3/2022)
@@ -99,7 +99,7 @@ while(hoard > 0):
 print("You don't have any gold left...")
 #Revision number 2-3-2022
 ##End Michael Winay here
-#Group 1/ Jason Myers / Michael Winay/  project 3
+#Omega Group/ Ram Valud / Michael Walker/  project greenwood321
 
 #Revision number 2-3-2022
 ##Begin Michael Winay here (2/3/2022)
@@ -130,4 +130,4 @@ for i in range(40):
     print(password)
 #Revision number 2-3-2022
 ##End Michael Winay here
-#Group 1/ Jason Myers / Michael Winay/  project 3
+#Omega Group/ Ram Valud / Michael Walker/  project greenwood321
