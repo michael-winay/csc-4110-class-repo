@@ -1,5 +1,5 @@
-#Revision number 2-26-2022
-##Begin Michael Winay here (2/26/2022)
+#Revision number 2-25-2022
+##Begin Michael Winay here (2/25/2022)
 print("Work Ticket 1:")
 print("This string has \"double quotation marks\" in it")
 
@@ -13,14 +13,14 @@ lines           with whitespace preserved
 """)
 print("This string is formed", end=" ")
 print("by multiple statements")
-#Revision number 2-26-2022
+#Revision number 2-25-2022
 ##End Michael Winay here
 #Zion Worship Cult/ Ram Vuduku / Rich Eissen/ the Zion Project
 
 print()
 
-#Revision number 2-26-2022
-##Begin Michael Winay here (2/26/2022)
+#Revision number 2-25-2022
+##Begin Michael Winay here (2/25/2022)
 print("Work Ticket 2:")
 ticket_two_string = "String is thirty eight characters long"
 print(ticket_two_string)
@@ -45,14 +45,14 @@ print()
 ticket_two_string_bazinga = "bazinga"
 print("normal:", ticket_two_string_bazinga)
 print("sliced:", ticket_two_string_bazinga[2:6])
-#Revision number 2-26-2022
+#Revision number 2-25-2022
 ##End Michael Winay here
 #Zion Worship Cult/ Ram Vuduku / Rich Eissen/ the Zion Project
 
 print()
 
-#Revision number 2-26-2022
-##Begin Michael Winay here (2/26/2022)
+#Revision number 2-25-2022
+##Begin Michael Winay here (2/25/2022)
 print("Work Ticket 3:")
 ticket_three_string_animal_one = "Animals"
 ticket_three_string_animal_two = "Badger"
@@ -131,14 +131,14 @@ print(ticket_three_string_be_one, ":", ticket_three_string_be_one.startswith("be
 print(ticket_three_string_be_two, ":", ticket_three_string_be_two.startswith("be"))
 print(ticket_three_string_be_three, ":", ticket_three_string_be_three.startswith("be"))
 print(ticket_three_string_be_four, ":", ticket_three_string_be_four.startswith("be"))
-#Revision number 2-26-2022
+#Revision number 2-25-2022
 ##End Michael Winay here
 #Zion Worship Cult/ Ram Vuduku / Rich Eissen/ the Zion Project
 
 print()
 
-#Revision number 2-26-2022
-##Begin Michael Winay here (2/26/2022)
+#Revision number 2-25-2022
+##Begin Michael Winay here (2/25/2022)
 print("Work Ticket 4:")
 ticket_four_string_intcast = "350"
 print("My number: " + ticket_four_string_intcast)
@@ -173,6 +173,6 @@ print()
 ticket_four_string_find = "Hello, can you find me?"
 print("String:", ticket_four_string_find)
 print("Location of target \"find\":", ticket_four_string_find.find("find"))
-#Revision number 2-26-2022
+#Revision number 2-25-2022
 ##End Michael Winay here
 #Zion Worship Cult/ Ram Vuduku / Rich Eissen/ the Zion Project
